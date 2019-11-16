@@ -17,6 +17,17 @@
     </string-array>
 
     <string-array name = "imageRefs">
-
+        <item>angryLizard.jpg</item>
+        <item>angryPenguin.jpg</item>
+        <item>apexCat.jpg</item>
+        <item>copDolphin.jpg</item>
+        <item>cowboyAdvice.jpg</item>
+        <item>dndMeme.jpg</item>
+        <item>feltCute.jpg</item>
+        <item>innerCowboy.jpg</item>
+        <item>ourGF.jpg</item>
+        <item>pup.jpg</item>
+        <item>wackSkyrim.jpg</item>
+        <item>weGender.jpg</item>
     </string-array>
 </resources>
