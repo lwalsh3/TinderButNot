@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Tinderbutnot</string>
+
+    <string-array name = "postTitles">
+        <item>Angry Lizard</item>
+        <item>Angry Penguin</item>
+        <item>Apex Cats</item>
+        <item>Dolphin Contraband</item>
+        <item>Cowboy Advice</item>
+        <item>Favored Enemy</item>
+        <item>Felt Cute</item>
+        <item>My True Self</item>
+        <item>Our GF Now</item>
+        <item>Cute Pup c:</item>
+        <item>Wack</item>
+        <item>The Final Gender</item>
+    </string-array>
+
+    <string-array name = "imageRefs">
+
+    </string-array>
 </resources>

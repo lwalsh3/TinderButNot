@@ -2,7 +2,7 @@ package com.example.tinderbutnot;
 
 public class Post {
     private boolean userDislike, userLike;
-    private int score;
+    private int score, id;
     private String imageRef;
     private String postTitle;
 
@@ -11,11 +11,12 @@ public class Post {
 
     }
 
-    public Post(String imageRef, String postTitle, int score)
+    public Post(String imageRef, String postTitle, int score, int id)
     {
         this.imageRef = imageRef;
         this.postTitle = postTitle;
         this.score = score;
+        this.id = id;
     }
 
     public int getScore() {
@@ -44,5 +45,9 @@ public class Post {
 
     public String getImageRef() {
         return imageRef;
+    }
+
+    public int getId() {
+        return id;
     }
 }
