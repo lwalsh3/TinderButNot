@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Tinderbutnot</string>
+    <string name="action_swipe">Swipe</string>
+    <string name="action_scroll">Scroll</string>
+    <string name="action_profile">Profile</string>
 
     <string-array name = "postTitles">
         <item>Angry Lizard</item>

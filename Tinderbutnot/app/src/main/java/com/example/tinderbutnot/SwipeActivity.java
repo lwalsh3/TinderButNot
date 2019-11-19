@@ -2,15 +2,20 @@ package com.example.tinderbutnot;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class swipeActivity extends AppCompatActivity {
+public class SwipeActivity extends AppCompatActivity {
 
     private Button dislikeButton;
     private Button likeButton;
     private Button saveImageButton;
+
+    private Menu mMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +54,26 @@ public class swipeActivity extends AppCompatActivity {
         }));
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.appbar_menu, menu);
+        mMenu = menu;
+        return super.onCreateOptionsMenu(menu);
+    }
 
-
-
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) { switch(item.getItemId()) {
+        case R.id.swipe:
+            //TODO if not already on the swipe page, switch to swipe page (create if necessary)
+            return(true);
+        case R.id.scroll:
+            Intent intent = new Intent(SwipeActivity.this, ScrollActivity.class);
+            startActivity(intent);
+            return(true);
+        case R.id.profile:
+            startActivity(new Intent(SwipeActivity.this, ProfileActivity.class));
+            return(true);
+    }
+        return(super.onOptionsItemSelected(item));
+    }
 }

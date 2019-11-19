@@ -669,6 +669,9 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_profile
+drawable ic_scroll
+drawable ic_swipe
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -793,7 +796,6 @@ id left
 id line1
 id line3
 id listMode
-id list_fragment_container
 id list_item
 id message
 id middle
@@ -810,6 +812,7 @@ id packed
 id parent
 id parentPanel
 id percent
+id profile
 id progress_circular
 id progress_horizontal
 id radio
@@ -817,9 +820,11 @@ id right
 id right_icon
 id right_side
 id screen
+id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scroll_fragment_container
 id search_badge
 id search_bar
 id search_button
@@ -846,6 +851,7 @@ id standard
 id start
 id submenuarrow
 id submit_area
+id swipe
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -929,6 +935,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu appbar_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -958,6 +965,9 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_profile
+string action_scroll
+string action_swipe
 string app_name
 string search_menu_title
 string status_bar_notification_info_overflow

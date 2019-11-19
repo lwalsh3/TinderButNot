@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-43:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\19312\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\19312\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\19312\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -25,25 +25,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\19312\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\19312\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\19312\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\19312\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-43:12
 		INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:1-43:12
 		INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:5:5-41:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\19312\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\19312\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] C:\Users\19312\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:5-89
@@ -64,20 +64,44 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\19
 		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.tinderbutnot.swipeActivity
-ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:12:9-18:20
+activity#com.example.tinderbutnot.SwipeActivity
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:12:9-19:20
+	android:launchMode
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:13:13-50
 	android:name
 		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:12:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.tinderbutnot.ScrollActivity
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:21:9-26:20
+	android:launchMode
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:22:13-50
+	android:name
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:21:19-49
+intent-filter#action:name:android.intent.action.DEFAULT
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:23:13-25:29
+action#android.intent.action.DEFAULT
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:24:17-71
+	android:name
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:24:25-69
+activity#com.example.tinderbutnot.ProfileActivity
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:28:9-33:20
+	android:launchMode
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:29:13-50
+	android:name
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:28:19-50
+activity#com.example.tinderbutnot.DetailsActivity
+ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:35:9-40:20
+	android:name
+		ADDED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml:35:19-50
 uses-sdk
 INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\19312\Desktop\TinderButNot\Tinderbutnot\app\src\main\AndroidManifest.xml

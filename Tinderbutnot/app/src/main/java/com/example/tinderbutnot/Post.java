@@ -47,6 +47,10 @@ public class Post {
         return imageRef;
     }
 
+    public String getPostTitle() {
+        return postTitle;
+    }
+
     public int getId() {
         return id;
     }
