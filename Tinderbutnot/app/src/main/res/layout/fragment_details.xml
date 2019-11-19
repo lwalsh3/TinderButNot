@@ -7,14 +7,14 @@
     tools:context="com.example.tinderbutnot.DetailsFragment">
 
     <TextView
-        android:id="@+id/bandName"
+        android:id="@+id/postTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/bandName"
         android:text="post title"/>
 
     <TextView
-        android:id="@+id/bandDescription"
+        android:id="@+id/imageRef"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/bandDescription"

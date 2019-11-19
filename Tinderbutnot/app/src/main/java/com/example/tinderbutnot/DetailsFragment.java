@@ -9,14 +9,14 @@ import androidx.fragment.app.Fragment;
 
 public class DetailsFragment extends Fragment {
 
-    private Post mBand;
+    private Post mPost;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // Get the first band
-        mBand = PostDatabase.getInstance(getContext()).getPost(1);
+        mPost = PostDatabase.getInstance(getContext()).getPost(1);
     }
 
     @Override
@@ -25,11 +25,11 @@ public class DetailsFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_details, container, false);
 
-        TextView nameTextView = (TextView) view.findViewById(R.id.bandName);
-        nameTextView.setText(mBand.getPostTitle());
+        TextView nameTextView = (TextView) view.findViewById(R.id.postTitle);
+        nameTextView.setText(mPost.getPostTitle());
 
-        TextView descriptionTextView = (TextView) view.findViewById(R.id.bandDescription);
-        descriptionTextView.setText(mBand.getImageRef());
+        TextView descriptionTextView = (TextView) view.findViewById(R.id.imageRef);
+        descriptionTextView.setText(mPost.getImageRef());
 
         return view;
     }

@@ -748,8 +748,6 @@ id add
 id alertTitle
 id always
 id async
-id bandDescription
-id bandName
 id barrier
 id beginning
 id blocking
@@ -789,6 +787,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageRef
 id info
 id invisible
 id italic
@@ -812,6 +811,7 @@ id packed
 id parent
 id parentPanel
 id percent
+id postTitle
 id profile
 id progress_circular
 id progress_horizontal
