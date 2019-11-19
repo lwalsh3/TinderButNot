@@ -26,31 +26,16 @@ public class SwipeActivity extends AppCompatActivity {
         likeButton = findViewById(R.id.buttonLike);
         saveImageButton = findViewById(R.id.buttonSaveImage);
 
-        dislikeButton.setOnClickListener((new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                //TODO decrement current Post score, set current Post userDislike to true, move on to next post
-            }
+        dislikeButton.setOnClickListener((v -> {
+            //TODO decrement current Post score, set current Post userDislike to true, move on to next post
         }));
 
-        likeButton.setOnClickListener((new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                //TODO increment current Post score, set current Post userlike to true, move on to next post
-            }
+        likeButton.setOnClickListener((v -> {
+            //TODO increment current Post score, set current Post userlike to true, move on to next post
         }));
 
-        saveImageButton.setOnClickListener((new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                //TODO save Image from current post to local storage of device
-            }
+        saveImageButton.setOnClickListener((v -> {
+            //TODO save Image from current post to local storage of device
         }));
     }
 
@@ -67,11 +52,10 @@ public class SwipeActivity extends AppCompatActivity {
             //TODO if not already on the swipe page, switch to swipe page (create if necessary)
             return(true);
         case R.id.scroll:
-            Intent intent = new Intent(SwipeActivity.this, ScrollActivity.class);
-            startActivity(intent);
+            startActivity(new Intent(this, ScrollActivity.class));
             return(true);
         case R.id.profile:
-            startActivity(new Intent(SwipeActivity.this, ProfileActivity.class));
+            startActivity(new Intent(this, ProfileActivity.class));
             return(true);
     }
         return(super.onOptionsItemSelected(item));
